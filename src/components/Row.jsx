@@ -10,7 +10,6 @@ import Movie from "./Movie";
 
 function Row({ title, fetchurl,rowId }) {
   const [movies, setMovies] = useState([]);
-  const [error, setError] = useState(false);
 
 
   //  console.log(url)

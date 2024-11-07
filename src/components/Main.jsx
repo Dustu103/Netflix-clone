@@ -4,7 +4,6 @@ import axios from "axios";
 
 function Main() {
   const [movies, setMovies] = useState([]);
-  const [url, setUrl] = useState("");
  
 
   useEffect(() => {
